@@ -1,0 +1,83 @@
+ * {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  body {
+    background-color: #f0e8d9;
+  }
+  
+  #title {
+    margin: 75px;
+    text-align: center;
+    color: #58595b;
+  }
+  
+  #title-name {
+    font-size: 64px;
+  }
+  
+  #subtitle {
+    font-size: 32px;
+    margin-top: 30px;
+  }
+  
+/* contents안에 div요소들을 그리드 레이아웃으로 만들었는데 문제점이 발생하였다.*/
+/* 그래서 높이값을 주었더니 .menu-imfo길이가길어지면 문제가 발생한다.*/
+.contents {
+    margin-bottom: 50px;
+    display: block;
+    width: 400px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+
+  img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-size: cover;
+  }
+  
+  .photo {
+    background-position: cover;
+    background-repeat: no-repeat;
+    float: left;
+  }
+  
+  
+  .menu {
+    color: #58595b;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: left;
+    text-align: center;
+  }
+  
+  .menu-name {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+    
+  
+  .menu-imfo {
+    font-size: 15px;
+  }
+  
+  
+  .link {
+    font-size: 16px;
+    color: #0000ee;
+    margin-top: 50px;
+    width: 180px;
+    float: left;
+  }
+  
+  .link a {
+    text-decoration: none;
+  }
